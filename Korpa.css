@@ -1,0 +1,143 @@
+/* Stil za ceo kontejner korpe */
+.korpa {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #202020;
+    border-radius: 10px;
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Naslov */
+h1 {
+    font-size: 2rem;
+    color: #e50914;  /* Tamnocrvena */
+    margin-bottom: 30px;
+}
+
+/* Informacije o paketu */
+.package-info {
+    margin-bottom: 30px;
+}
+
+.package-info p {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.package-info span {
+    font-weight: bold;
+    color: #e50914;  /* Tamnocrvena boja za važne informacije */
+}
+
+/* Dugmad */
+.button {
+    background-color: #e50914;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button:hover {
+    background-color: #a40a1b;
+    transform: translateY(-2px);
+}
+
+/* Dugme za potvrdu */
+.confirm {
+    background-color: #000;
+    color: #fff;
+}
+
+.confirm:hover {
+    background-color: #333;
+}
+
+/* Tekst za potvrdu kupovine */
+.confirm-text {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.korpa {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .package-info p {
+    font-size: 18px;
+  }
+  
+  .coupon-section {
+    margin: 20px 0;
+  }
+  
+  .coupon-section input {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .coupon-section button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .coupon-section button:hover {
+    background-color: #0056b3;
+  }
+  
+  .button {
+    padding: 12px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .button:hover {
+    background-color: #218838;
+  }
+  
+  .confirmation-modal {
+    background: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+  }
+  
+  .scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 24px;
+  }
+  

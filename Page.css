@@ -1,0 +1,123 @@
+/* General page styling */
+.page {
+    padding: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Crna pozadina */
+    color: #fff; /* Bela boja teksta */
+    border: 1px solid #444; /* Tanka crna ivica */
+    border-radius: 8px; /* Blago zaobljene ivice */
+}
+
+/* Heading styling */
+.page h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #ff0000; /* Crvena boja naslova */
+    text-shadow: none; /* Uklonjen senčeni efekat za čistiji izgled */
+}
+
+/* Paragraph styling */
+.page p {
+    margin-bottom: 1rem;
+    color: #ccc; /* Svetlo siva za tekst */
+}
+
+/* Form styling */
+.page form {
+    margin-top: 2rem;
+    background-color: #111; /* Tamno siva pozadina */
+    padding: 1.5rem;
+    border: 1px solid #444; /* Tanka crna ivica za formu */
+    border-radius: 8px;
+}
+
+.page form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #fff; /* Bela boja za label */
+}
+
+.page form input,
+.page form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #444; /* Tanka crna ivica */
+    border-radius: 4px;
+    background-color: #222; /* Tamno siva unutrašnjost */
+    color: #fff; /* Bela boja teksta */
+}
+
+.page form button {
+    padding: 0.75rem 1.5rem;
+    background-color: #ff0000; /* Crveno dugme */
+    color: #fff;
+    border: 1px solid #444; /* Tanka crna ivica za dugme */
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Dodavanje transformacije */
+}
+
+.page form button:hover {
+    background-color: #cc0000; /* Tamnija crvena pri hover-u */
+    transform: scale(1.05); /* Blagi efekat povećanja pri hover-u */
+}
+
+/* Contact info styling */
+.contact-info {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.contact-info p {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+    color: #fff; /* Bela boja za kontakt informacije */
+}
+
+/* Social media buttons styling */
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.social-button {
+    text-decoration: none;
+    color: white;
+    padding: 0.75rem 1rem;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #444; /* Tanka crna ivica za dugme */
+    transition: transform 0.3s ease, box-shadow 0.2s ease; /* Dodavanje transformacije */
+}
+
+.social-button:hover {
+    transform: scale(1.1); /* Efekat povećanja pri hover-u */
+}
+
+/* Specific social media button colors */
+.social-button.youtube {
+    background-color: #ff0000; /* YouTube */
+}
+
+.social-button.instagram {
+    background-color: #C13584; /* Instagram */
+}
+
+.social-button.facebook {
+    background-color: #3b5998; /* Facebook */
+}
+
+.social-button.tiktok {
+    background-color: #000000; /* TikTok */
+}

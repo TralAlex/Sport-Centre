@@ -1,0 +1,156 @@
+/* Globalni stilovi za home page */
+.home {
+    background: url('https://example.com/video-background.mp4') no-repeat center center/cover;
+    color: black;
+    position: relative;
+    padding: 2rem 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    filter: none; /* Bez zamućenja dok modal nije aktivan */
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.home h1, 
+.home p {
+    z-index: 2;
+    text-align: center;
+    color: white;
+}
+
+.register-button,
+.login-button {
+    background-color: red;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    z-index: 2;
+    transition: background-color 0.3s ease;
+}
+
+.register-button:hover,
+.login-button:hover {
+    background-color: darkred;
+}
+
+/* Stilovi za modal */
+.login-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7); /* Tamna pozadina kad se modal otvori */
+    z-index: 1000;
+}
+
+.modal-content {
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    width: 300px;
+    text-align: center;
+}
+
+.modal-content h2 {
+    margin-bottom: 20px;
+}
+
+.modal-content input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.modal-content button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.modal-content button:hover {
+    background-color: #0056b3;
+}
+
+/* Close button for the modal */
+.close-button {
+    margin-top: 10px;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.close-button:hover {
+    background-color: darkred;
+}
+
+/* Dodaj efekte kad se modal prikaže */
+.home.blur-background {
+    filter: blur(5px);
+    pointer-events: none; /* Deaktivira interakcije sa pozadinom */
+}
+/* Improved Register and Login Button Styles */
+.register-button, .login-button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for 3D effect */
+}
+
+/* Register button - set to blue */
+.register-button {
+    background-color: #007bff;
+    color: white;
+}
+
+.register-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Login button - same design for consistency */
+.login-button {
+    background-color: #28a745; /* Green login button for contrast */
+    color: white;
+}
+
+.login-button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* Additional improvements for button aesthetics */
+button:focus {
+    outline: none; /* Remove default focus outline */
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5); /* Focus shadow effect */
+}

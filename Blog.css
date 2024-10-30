@@ -1,0 +1,89 @@
+/* Blog page styles */
+.blog-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff; /* Svetla pozadina */
+}
+
+.blog-title {
+    font-size: 2.5rem;
+    color: #c00; /* Crvena boja za naslov */
+    margin-bottom: 20px;
+}
+
+.blog-intro {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.blog-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px; /* Veći razmak između kartica */
+}
+
+.blog-item {
+    flex-basis: calc(33.333% - 60px); /* Tri kolone, s razmakom */
+    background-color: #f4f4f4; /* Svetla pozadina kartice */
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s; /* Efekti transformacije */
+    border: 2px solid #000; /* Crni okvir */
+}
+
+.blog-item:hover {
+    transform: translateY(-5px); /* Blagi pomeraj pri hover-u */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Veći senčenje pri hover-u */
+}
+
+.blog-img {
+    width: 100%;  /* Širina slike 100% */
+    height: 200px; /* Precizna visina slike */
+    object-fit: cover; /* Da slika popuni okvir */
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.blog-item-title {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.blog-item-description {
+    font-size: 1rem;
+    color: #777;
+}
+
+/* Dodavanje crnih elemenata */
+.video-section {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.video-title {
+    font-size: 2rem;
+    color: #c00; /* Crvena boja za naslov */
+    margin-bottom: 20px;
+}
+
+.videos-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Razmak između videa */
+    flex-wrap: wrap; /* Dodato za bolji izgled na manjim ekranima */
+}
+
+.video-iframe {
+    width: 100%;
+    max-width: 560px; /* Maksimalna širina iframe-a */
+    height: 315px;    /* Proporcionalna visina */
+    border: none; /* Bez ivica */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Senčenje iframe-a */
+}

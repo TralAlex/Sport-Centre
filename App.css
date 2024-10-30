@@ -1,0 +1,92 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+/* Navigation styles */
+nav {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Page content styles */
+.page-content {
+  padding: 2rem;
+}
+
+h1 {
+  color: #333;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  color: #666;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+/* Home page styles */
+.home {
+  background: url('https://source.unsplash.com/1600x900/?gym') no-repeat center center/cover;
+  color: white;
+  padding: 2rem;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home h1 {
+  font-size: 3rem;
+}
+
+.home p {
+  font-size: 1.5rem;
+}
+
+/* About and Contact page styles */
+.page {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.page h1 {
+  margin-bottom: 1rem;
+}
+
+.page p {
+  margin-bottom: 1rem;
+}

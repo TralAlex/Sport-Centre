@@ -1,0 +1,149 @@
+.online-treninzi-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #222; /* Tamno siva pozadina */
+    color: #fff; /* Bela boja teksta */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7); /* Senka za ceo kontejner */
+  }
+  
+  .online-treninzi-container h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #e74c3c; /* Crvena boja naslova */
+  }
+  
+  .online-treninzi-container p {
+    font-size: 1.25rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: #bbb; /* Svetlo siva za tekst */
+  }
+  
+  .online-treninzi-container ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .online-treninzi-container ul li {
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+    color: #e74c3c; /* Crvena boja za stavke liste */
+  }
+  
+  .online-treninzi-container ul li:hover {
+    color: #fff; /* Bela boja na hover */
+    transition: color 0.3s ease;
+  }
+  
+  .online-treninzi-container p:last-of-type {
+    text-align: center;
+    font-size: 1.25rem;
+    color: #ddd; /* Svetlija boja za zadnji paragraf */
+  }
+  .video-section {
+    margin-top: 3rem;
+    text-align: center;
+  }
+  
+  .video-title {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #e74c3c; /* Crvena boja naslova */
+  }
+  
+  .videos-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .video-iframe {
+    width: 100%;
+    max-width: 400px;
+    height: 225px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7); /* Senka oko videa */
+    transition: transform 0.3s ease;
+  }
+  
+  .video-iframe:hover {
+    transform: scale(1.05); /* Mali zoom na hover */
+  }
+  .online-treninzi-container {
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .video-section {
+    padding: 20px;
+  }
+  
+  .video-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .videos-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .video-item {
+    flex: 1;
+    min-width: 280px;
+    max-width: 48%;
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .video-iframe {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+  }
+  
+  h3 {
+    margin-bottom: 10px;
+    font-size: 1.25rem;
+    color: #333;
+  }
+  
+  .buy-button {
+    background-color: #e74c3c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .buy-button:hover {
+    background-color: #c0392b;
+  }
+      

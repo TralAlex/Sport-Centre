@@ -1,0 +1,60 @@
+.karijera-container {
+    background-color: #1c1c1c; /* Tamna pozadina */
+    color: #ffffff; /* Bela boja za tekst */
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+.karijera-title {
+    color: #e63946; /* Crvena boja za naslov */
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.karijera-intro {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.karijera-subtitle {
+    color: #e63946; /* Crvena boja za podnaslove */
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+.karijera-list, .karijera-benefits {
+    list-style-type: none;
+    padding: 0;
+}
+
+.karijera-item, .karijera-benefits li {
+    background-color: #333; /* Tamno siva pozadina za stavke */
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border-left: 5px solid #e63946; /* Crvena ivica */
+}
+
+.karijera-item h3 {
+    margin-top: 0;
+    color: #ffffff;
+}
+
+.karijera-item p {
+    color: #cccccc;
+}
+
+.karijera-benefits li {
+    color: #ffffff;
+}
+
+a {
+    color: #e63946; /* Crvena boja za linkove */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

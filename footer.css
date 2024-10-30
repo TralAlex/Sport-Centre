@@ -1,0 +1,36 @@
+
+.footer-container {
+    background-color: #1b1b1b;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    color: white;
+    margin-top: auto;
+    width: 100%;
+}
+
+/* Footer Styles */
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 0 1rem;
+}
+
+.footer-section h3 {
+    color: RED;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section li {
+    margin-bottom: 8px;
+    color: #ccc;
+}
